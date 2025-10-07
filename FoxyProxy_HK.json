@@ -1,0 +1,41 @@
+{
+  "mode": "disable",
+  "sync": false,
+  "autoBackup": false,
+  "passthrough": "",
+  "theme": "",
+  "container": {},
+  "commands": {
+    "setProxy": "",
+    "setTabProxy": "",
+    "includeHost": "",
+    "excludeHost": ""
+  },
+  "data": [
+    {
+      "active": true,
+      "title": "HK DC",
+      "type": "http",
+      "hostname": "10.33.1.254",
+      "port": "8080",
+      "username": "",
+      "password": "",
+      "cc": "HK",
+      "city": "",
+      "color": "#00a321",
+      "pac": "",
+      "pacString": "",
+      "proxyDNS": true,
+      "include": [
+        {
+          "type": "wildcard",
+          "title": "dns-shop.ktalk.ru",
+          "pattern": "*.ktalk.ru",
+          "active": true
+        }
+      ],
+      "exclude": [],
+      "tabProxy": []
+    }
+  ]
+}
