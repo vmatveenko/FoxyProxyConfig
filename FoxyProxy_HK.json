@@ -3,7 +3,7 @@
   "sync": true,
   "autoBackup": false,
   "passthrough": "",
-  "theme": "moonlight",
+  "theme": "",
   "container": {},
   "commands": {
     "setProxy": "",
@@ -14,7 +14,25 @@
   "data": [
     {
       "active": true,
-      "title": "HK DC",
+      "title": "rules hk",
+      "type": "pac",
+      "hostname": "raw.githubusercontent.com",
+      "port": "",
+      "username": "",
+      "password": "",
+      "cc": "",
+      "city": "",
+      "color": "#0040ff",
+      "pac": "https://raw.githubusercontent.com/vmatveenko/FoxyProxyConfig/refs/heads/main/HK.pac",
+      "pacString": "",
+      "proxyDNS": true,
+      "include": [],
+      "exclude": [],
+      "tabProxy": []
+    },
+    {
+      "active": true,
+      "title": "proxy hk",
       "type": "http",
       "hostname": "10.33.1.254",
       "port": "8080",
@@ -26,14 +44,7 @@
       "pac": "",
       "pacString": "",
       "proxyDNS": true,
-      "include": [
-        {
-          "type": "wildcard",
-          "title": "dns-shop.ktalk.ru (test)",
-          "pattern": "*.ktalk.ru",
-          "active": true
-        }
-      ],
+      "include": [],
       "exclude": [],
       "tabProxy": []
     }
