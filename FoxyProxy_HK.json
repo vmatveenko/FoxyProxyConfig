@@ -29,7 +29,7 @@
       "include": [
         {
           "type": "wildcard",
-          "title": "dns-shop.ktalk.ru",
+          "title": "dns-shop.ktalk.ru (test)",
           "pattern": "*.ktalk.ru",
           "active": true
         }
