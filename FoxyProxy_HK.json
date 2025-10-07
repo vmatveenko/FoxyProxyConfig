@@ -1,9 +1,9 @@
 {
   "mode": "disable",
-  "sync": false,
+  "sync": true,
   "autoBackup": false,
   "passthrough": "",
-  "theme": "",
+  "theme": "moonlight",
   "container": {},
   "commands": {
     "setProxy": "",
