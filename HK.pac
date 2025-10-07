@@ -7,5 +7,10 @@ function FindProxyForURL(url, host) {
         return PROXY_HK;
     }
 
+    // ktalk.ru и все поддомены (*.ktalk.ru)
+    if (host === "2ip.ru" || shExpMatch(host, "*.2ip.ru")) {
+        return PROXY_HK;
+    }
+
     return "DIRECT";
 }
