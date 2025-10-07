@@ -1,0 +1,52 @@
+{
+  "mode": "disable",
+  "sync": true,
+  "autoBackup": false,
+  "passthrough": "",
+  "theme": "",
+  "container": {},
+  "commands": {
+    "setProxy": "",
+    "setTabProxy": "",
+    "includeHost": "",
+    "excludeHost": ""
+  },
+  "data": [
+    {
+      "active": true,
+      "title": "rules hk",
+      "type": "pac",
+      "hostname": "raw.githubusercontent.com",
+      "port": "",
+      "username": "",
+      "password": "",
+      "cc": "",
+      "city": "",
+      "color": "#0040ff",
+      "pac": "https://raw.githubusercontent.com/vmatveenko/FoxyProxyConfig/refs/heads/main/SZ.pac",
+      "pacString": "",
+      "proxyDNS": true,
+      "include": [],
+      "exclude": [],
+      "tabProxy": []
+    },
+    {
+      "active": true,
+      "title": "proxy hk",
+      "type": "http",
+      "hostname": "10.33.1.254",
+      "port": "8080",
+      "username": "",
+      "password": "",
+      "cc": "HK",
+      "city": "",
+      "color": "#00a321",
+      "pac": "",
+      "pacString": "",
+      "proxyDNS": true,
+      "include": [],
+      "exclude": [],
+      "tabProxy": []
+    }
+  ]
+}
